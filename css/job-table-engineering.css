@@ -1,0 +1,255 @@
+table#job-family-table {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1366px;
+    width: 100%;
+}
+
+table#job-family-table td {
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px dotted #4d4d4f;
+    border-left: 1px solid #4d4d4f;
+    vertical-align: middle;
+    border-collapse: collapse;
+}
+
+table#job-family-table td.thicker-border {
+    border-bottom: 1px dotted #4d4d4f;
+    border-left: none;
+    border-right: 4px solid #4d4d4f;
+}
+
+table#job-family-table td.no-border {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+td.IC {
+	background:#c1d82f !important;
+	vertical-align:middle !important;
+}
+td.Manager {
+	background:#009ddc !important;
+	vertical-align:middle !important;
+}
+
+tr.top-bar-bg td, tr.yellow-executive-bar td {
+	height: auto !important;
+    border: none !important;
+}
+
+table#job-family-table td.col-01 {
+    width: 5%;
+}
+
+table#job-family-table td.col-02 {
+    width: 4%;
+}
+
+table#job-family-table td.col-03 {
+    width: 23%;
+}
+
+table#job-family-table td.col-04 {
+    width: 23%;
+}
+
+table#job-family-table td.col-05 {
+    width: 22%;
+}
+
+table#job-family-table td.col-06 {
+    width: 23%;
+}
+
+/*** table#job-family-table td.col-07 {
+    width: 13%;
+}
+
+table#job-family-table td.col-08 {
+    width: 13%;
+}
+
+table#job-family-table td.col-09 {
+    width: 13%;
+} ***/
+
+tr.top-bar-bg td {
+	border:none;
+    background: #4d4d4f !important;
+}
+
+td.top-bar-titles p {
+	border:none;
+    color: #fff;
+	padding:8px 4px;
+    margin: 0;
+	vertical-align:top;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+tr.yellow-executive-bar td {
+    background: #fffcdf !important;
+    border-bottom: none !important;
+    vertical-align: middle !important;
+}
+
+tr.yellow-executive-bar td p {
+    text-align: center;
+    font-size: 12px;
+    line-height: normal;
+    margin: 10px auto;
+}
+
+.vertical {
+    writing-mode: horizontal-tb;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    display: block;
+    bottom: -15px;
+    width: 35px;
+    font-size: 16px;
+    position: relative;
+    color:#ffffff;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+td.blank-cell {
+    background: #f5f5f5 !important;
+}
+
+td.no-data {
+    background: #d7d7d9 !important;
+    height: 20px !important;
+}
+
+td.thin {
+    height: 20px !important;
+}
+
+td.thin p {
+    color: #c2c2c4 !important;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+}
+
+p.Table-Content {
+	-epub-hyphens:none;
+	color:#4d4d4f;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+    padding: 8px 5px;
+    margin: 0 0 4px 0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+
+p.level-number {
+    text-align: center;
+    font-size: 18px;
+    color: #4d4d4f;
+    padding: 8px 5px;
+    margin: 0 0 4px 0;
+}
+
+.role-triggers ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+}
+
+ul li.manager-trigger, ul li.ic-trigger {
+    cursor: pointer;
+    display: inline;
+    padding: 10px 15px;
+} 
+
+.manager-trigger {
+    color: #009ddc;
+    cursor: pointer;
+}
+
+.ic-trigger {
+    color: #c1d82f;
+    cursor: pointer;
+}
+
+.bully:after {font-size:1em; vertical-align: middle; content: ''; width: 15px; height: 15px; margin: 0 2px; display: inline-block;} 
+    .ic-trigger .bully:after {border:3px solid #c1d82f; }
+    .manager-trigger .bully:after {border:3px solid #009ddc; }
+
+        .bully-x:after {color:firebrick; content: 'X'; border:none; display: inline; padding: 1px; border: 4px solid #fff !important; font-weight: normal;}
+        .ic-trigger .bully-x:after {color:#c1d82f; }
+        .manager-trigger .bully-x:after {color:#009ddc; }
+
+.dimmer {opacity: .25;}    
+
+.ic-role-highlight, .ic.nav-highlight {
+    background: #c1d82f !important;
+} 
+
+.mgr-role-highlight, .mgr.nav-highlight {
+    background: #009ddc !important;
+    color: #fff !important;
+}
+
+
+
+/* -- LINK STYLES -- */
+
+td p.Table-Content a {
+    color: #4d4d4f;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+td p.Table-Content a:hover {
+    text-decoration: underline;
+}
+
+    td p.mgr-role-highlight a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    td p.mgr-role-highlight a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+td.top-bar-titles p a {
+    color: #fff;
+	text-decoration: none;
+}
+
+td.top-bar-titles p a:hover {
+    color: #fff;
+	text-decoration: underline;
+}

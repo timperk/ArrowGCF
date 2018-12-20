@@ -1,0 +1,306 @@
+	
+#siteIcon 
+{
+display: none !important;
+}
+
+#pageTitle 
+{
+display: none;
+}
+
+#sideNavBox 
+{
+display: none;
+}
+
+#O365_NavHeader 
+{
+background-color: #000;
+}
+
+#zz11_RootAspMenu 
+{
+/* background-color: #0046AD; */
+}
+
+
+
+.ms-bgc-tp 
+{
+background-color: #000;
+}
+
+.menu-item-text 
+{
+color: #fff;
+}
+
+
+
+/* Black Bar Title/Logo Change */
+
+a.o365cs-nav-appTitle.o365cs-topnavText.o365button span {
+    display: none;
+}
+
+a.o365cs-nav-appTitle.o365cs-topnavText.o365button:before {
+    content: '';
+    background: url(https://arrowelectronics.sharepoint.com/sites/GCF/SiteAssets/arrow_logo_wht.png) no-repeat;
+    background-position: 0 14px;
+    height: 50px;
+    width: 105px;
+    display: inline-block;
+    float: left;
+}
+
+a.o365cs-nav-appTitle.o365cs-topnavText.o365button:after {
+    content: 'Global Career Framework Portal';
+    line-height: 50px;
+    font-size: 22px;
+    float: left;
+}
+
+a#O365_MainLink_Logo {
+    display: none;
+}
+
+.o365cs-nav-header16 .o365cs-nav-appTitle {
+    width: 120%;
+}
+
+.o365cs-nav-appTitleLine.o365cs-nav-brandingText.o365cs-topnavText.o365cs-rsp-tw-hide.o365cs-rsp-tn-hide {
+    display: none;
+}
+
+
+
+
+#ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sboxdiv 
+{
+background-color: #fff;
+}
+
+#s4-bodyContainer {
+    padding-bottom: 0px;
+}
+
+#s4-titlerow 
+{
+height: 45px;
+padding: 0 !important;
+background: #0046AD;    
+margin: 0;    
+}
+
+.ms-tableRow {
+    display: block;
+    margin: 0 auto;
+    width: 1340px;
+}
+
+#contentRow {
+    padding-top:0 !important;
+}
+
+.static .selected .menu-item-text 
+{
+color: #0046AD;
+}
+
+a:hover .menu-item-text  
+{
+color: #0046AD;
+}
+
+.ms-navedit-editLinksText > span > .ms-metadata,
+.ms-core-listMenuEdit > tr > .ms-navedit-linkCell > .ms-core-listMenu-item
+{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#999;
+}
+
+.ms-navedit-editLinksText > span > .ms-metadata,
+.ms-core-listMenuEdit > tr > .ms-navedit-linkCell > .ms-core-listMenu-item
+{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#999;
+}
+
+li .dynamic .menu-item-text 
+{
+color: #0046AD; 
+}
+
+li .dynamic a:hover .menu-item-text 
+{
+color: #72CDF4; 
+}
+
+
+li.static:hover, li.static.selected, li.static:hover {
+    background-color: #e5f2fb !important;
+    color: #0046ad !important;
+    font-weight: normal !important;
+}
+
+li.static.hover > a span.menu-item-text {
+    color: #0046ad !important;
+}
+
+
+li.static:hover > ul.dynamic li {
+    font-weight: normal !important;
+}
+
+li.static .ms-core-listMenu-selected {
+    font-weight: normal;
+}
+
+#globalNavBox,.ms-clientcontrol-chromeheader
+{
+/* [ReplaceColor(themeColor:"TopBarBackground")] */ background-color: #b3b3b3;
+width:100%;
+height:35px;
+}
+
+li.static {
+    border-left: 1px solid #ccc;
+    width: 100%;
+    white-space: normal;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    min-width: 105px;
+    max-width: 105px;
+}
+
+li.static:nth-child(1) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+li.static:nth-child(3) {
+    min-width: 95px;
+    max-width: 95px;
+}
+
+li.static:nth-child(5) {
+    min-width: 95px;
+    max-width: 95px;
+}
+
+li.static:nth-child(7) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+li.static:nth-child(10) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+
+
+li.static:first-child 
+{
+border-left: none;
+}
+
+
+.ms-core-listMenu-horizontalBox .dynamic-children.additional-background {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: right center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.ms-mpSearchBox {
+    width: 240px;
+    float: left;
+}
+
+
+div.article,
+div.welcome 
+{
+padding: 0px 0px;
+}
+
+.article-content,
+.welcome-content 
+{
+margin: 0px 0 0;
+}
+
+
+.ms-displayInline {
+    display: inline;
+    line-height: inherit;
+}
+
+.menu-item-text {
+    color: #fff;
+    white-space: normal;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+li.dynamic {
+	line-height: 24px; 
+    width: 300px;
+}
+#SearchBox 
+{
+padding-top: 15px;
+}
+
+#contentBox 
+{
+margin-right:20px;margin-left: 2%;min-width:703px;
+}
+
+.ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item {
+    border: none;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    display: block;
+    line-height: 14px;
+}
+
+
+#titleAreaBox {
+    margin: 0 auto;
+    display: block;
+}
+
+.ms-breadcrumb-box {
+    width: auto;
+    height: 48px;
+}
+
+#SearchBox {
+    padding-top: 11px;
+}
+
+img.map, map area{
+	outline: none;
+}
+
+/* Footer background image/texture */
+
+.footer-bg-area {
+    background: url(https://arrowelectronics.sharepoint.com/sites/GCF/SiteAssets/site%20images/footer-area-bg.png);
+    background-repeat: repeat-x;
+    height: 110px;
+    margin: 30px 0 0 -2%;
+    width: 103%;
+}
+
+.footer-bg-area p {
+    padding: 3% 0 0 4%;
+    margin: 0;
+    color: #a9a9a9;
+}
+

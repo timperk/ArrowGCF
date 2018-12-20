@@ -1,0 +1,230 @@
+.graphic-contain {
+    position: relative;
+}
+
+.main-img-contain {
+    width: 100%;
+    height: auto;
+}
+
+.y-box-area {
+    /*position: absolute;
+     max-height: 1251px;
+    height: 100%;
+    max-width: 1400px;
+    width: 100%; */
+}
+
+/* Hover tooltips */
+.field-tip {
+    /* position:relative; */
+    cursor:help;
+}
+.field-tip .tip-content {
+    position:absolute;
+    top:5%; /* - top padding */
+    right:9999px;
+    width:38%;
+    margin-right:0px; /* width + left/right padding */
+    color:#4E4E4E;
+    background:#FFF8D9;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+       -moz-box-shadow:0px 0px 3px #aaa;
+            box-shadow:0px 0px 3px #aaa;
+    opacity:0;
+    -webkit-transition:opacity 250ms ease-out;
+       -moz-transition:opacity 250ms ease-out;
+        -ms-transition:opacity 250ms ease-out;
+         -o-transition:opacity 250ms ease-out;
+            transition:opacity 250ms ease-out;
+    padding:1% 2%;
+    z-index: 9999;
+    border-radius: 8px;
+}
+        
+.field-tip:hover .tip-content {
+    opacity:1;
+}
+
+.field-tip:hover .tip-content.bottom-left {
+    bottom: 14%;
+    left: 0;
+    top: inherit;
+}
+
+.field-tip:hover .tip-content.top-left {
+    top:12%;
+    left: 0;
+}
+
+.field-tip:hover .tip-content.top-right {
+    top:12%;
+    right: 0;
+    left: inherit;
+}
+
+
+.floating-legend {
+    position: absolute;
+    top: 40%;
+}
+
+    .floating-legend ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    .floating-legend ul li {
+        padding: 5px 0;
+    }
+
+    .floating-legend.manager-menu {
+        left: 3%;
+    }
+    .manager-menu h2 {
+        color: #0193D7;
+        border-bottom: 5px solid #0193D7;
+    }
+
+    .floating-legend.ic-menu {
+        right: 3%;
+    }
+    .ic-menu h2 {
+        color: #98C21F;
+        border-bottom: 5px solid #98C21F;
+    }
+
+.pointy {
+    cursor: pointer;
+    color: #444;
+    font-size: 1.1em;
+}
+    .pointy img {
+        vertical-align: middle;
+        padding: 0 10px 0 0;
+    }
+
+    .pointy.reset {
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        float: none;
+        display: block;
+    }
+    .pointy.reset img {
+        display: block;
+        padding: 0;
+        margin: 15px auto;
+    }
+
+
+.support-links.center {
+    text-align: center;
+    margin:0 auto;
+}
+
+.support-links {
+    position: relative;
+    text-align: right;
+    margin-bottom: 20px;
+    display: block;
+}
+
+    .support-links ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        display: inline;
+    }
+
+    .support-links ul li {
+        padding: 5px 0;
+        display: inline;
+    }
+
+    .support-links ul li span {
+        display: none;
+    }
+    .support-links ul li a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .support-links ul li a.mgr-tools {
+        background: url('https://arrowelectronics.sharepoint.com/sites/GCF/SiteAssets/site images/mngr-tools-button.png');
+        background-position: 0px 36px;
+        width: 190px;
+        height: 35px;
+    }
+    .support-links ul li a.support-mat {
+        background: url('https://arrowelectronics.sharepoint.com/sites/GCF/SiteAssets/site images/support-tools-button.png');
+        background-position: 0px 36px;
+        width: 190px;
+        height: 35px;
+    }
+
+        .support-links ul li a.mgr-tools:hover {
+            background-position: 0px 0px;
+        }
+        .support-links ul li a.support-mat:hover {
+            background-position: 0px 0px;
+        }
+
+
+/* LIGHTBOX STYLES */
+
+div#html5-watermark {
+		display: none !important; 
+    }
+		
+	div#html5-lightbox-overlay {
+        opacity: 0.8 !important;
+    }
+			
+    div#html5-elem-data-box {
+        display: none !important;
+    }
+    
+    .lightboxcontainer {
+      width:100%;
+      text-align:left;
+    }
+    .lightboxleft {
+      width: 50%;
+      float:left;
+    }
+    .lightboxright {
+      width: 50%;
+      float:left;
+    }
+
+    iframe.full-vid {
+        border: none;
+        width: 100%;
+        margin: 80px auto 0 auto;
+        display: block;
+        max-width: 568px;        
+    }
+
+    .divtext {
+      margin: 10px 36px;
+    }
+    .divtitle {
+        text-align: center;
+        color: #0072C6;
+    }
+    @media (max-width: 800px) {
+      .lightboxleft {
+        width: 100%;
+      }
+      .lightboxright {
+        width: 100%;
+      }
+      .divtext {
+        margin: 12px;
+      }
+    }
+    
